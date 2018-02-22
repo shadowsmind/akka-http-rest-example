@@ -1,0 +1,15 @@
+version: '1'
+services:
+    example-api:
+        image: example-api:1.0
+        depends_on:
+            - example-postgres
+        ports:
+            - 8967:8967
+        restart: always
+
+    example-postgres:
+        extends:
+            file: postgres.yml
+            service: example-postgres
+

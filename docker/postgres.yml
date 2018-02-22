@@ -1,0 +1,10 @@
+version: '1'
+services:
+    example-postgres:
+        container_name: example-postgres
+        image: postgres
+        environment:
+            POSTGRES_DB: example_db
+            POSTGRES_PASSWORD: example_db_pass
+        ports:
+            - 5432:5432

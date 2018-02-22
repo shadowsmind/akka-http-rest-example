@@ -1,0 +1,12 @@
+# idea
+.idea
+target
+.idea_modules
+
+
+# scala, sbt
+logs
+.classpath
+.project
+.settings
+RUNNING_PID
