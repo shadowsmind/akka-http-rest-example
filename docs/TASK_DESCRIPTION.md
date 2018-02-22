@@ -1,7 +1,9 @@
 ### Task description
 
 #### Schema
+
 Accounts: 
+
 ![account schema migration](./pipeline_images/schema_migration_account.png)
 
 
